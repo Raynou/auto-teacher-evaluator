@@ -31,7 +31,7 @@ This window allows you to customize grading behaviour for each teacher. When you
 ![alt Config Window](images/config.jpg)
 
 ## Installation
-1. Download the latest build. You can get it here: 
+1. Download the file with extension `crx`. You can get it here: https://github.com/Raynou/auto-teacher-evalutor/releases/tag/1.0
 2. Go to your navigator and search this URL: chrome://extensions/
 3. Enable "Developer Mode" (Modo desarrollador) in the top right corner
 4. Drag & drop the file `crx` (el archivo que descargó en el link que le di pues) file into the extensions window
