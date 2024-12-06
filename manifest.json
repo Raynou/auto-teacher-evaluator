@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "name": "Auto teacher evaluator",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "all_frames": true
+      }
+    ],
+    "commands": {
+      "evaluate": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+1"
+        },
+        "description": "Evaluar la pregunta"
+      },
+      "next-question": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+2"
+        },
+        "description": "Pasar a la siguiente pregunta de la evaluación"
+      },
+      "evaluate-next": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+3"
+        },
+        "description": "Evalua y pasa a la siguiente pregunta... flojonazo"
+      }
+    },
+    "background":{
+      "service_worker": "background.js"
+    }
+  }
+  

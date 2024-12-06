@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="options" class="options">
+            <label class="option">
+                <input name="behaviour" type="radio" value="random" class="radio-input">
+                <span>Aleatorio</span>
+            </label>
+            <label class="option">
+                <input name="behaviour" type="radio" value="bad" class="radio-input">
+                <span>Calificar mal</span>
+            </label>
+            <label class="option">
+                <input name="behaviour" type="radio" value="good" class="radio-input">
+                <span>Calificar bien</span>
+            </label>
+        </div>
+        <a id="add-exception-button" class="exception-link" href="options/options.html">
+            Añadir excepciones
+        </a>
+        <div class="buttons">
+            <button id="evaluate-button" class="btn-evaluate">
+                Evaluar
+            </button>
+            <button id="next-question-button" class="btn-next">
+                Siguiente
+            </button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
