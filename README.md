@@ -25,7 +25,7 @@ The two buttons (whose functionallity is described by their names) each have a s
 ![alt Config Window](images/main.jpg)
 
 #### Config Window (also known as: Exceptions or "Excepciones" para mi gente bonita)
-This window allows you to customize grading behaviour for each teacher. When you open this window. By default, when you open this window, each teacher will have the same grading behaviour that you set in the main window.
+This window allows you to customize grading behaviour for each teacher. By default, when you open this window, each teacher will have the same grading behaviour that you set in the main window.
 
 
 ![alt Config Window](images/config.jpg)
