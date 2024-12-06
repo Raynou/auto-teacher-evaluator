@@ -17,9 +17,9 @@ From this window you select the extension's behaviour of the extension to evalua
 
 The two buttons (whose functionallity is described by their names) each have a shortcut. By default they're assigned as shown below:
 
-- Shift + Ctrl + 1 -> Evaluate (Evaluar)
-- Shift + Ctrl + 2 -> Next (Ir a la siguiente pregunta)
-- Shift + Ctrl + 3 -> Evaluate + Next (Si)
+- Ctrl + Shift + 1 -> Evaluate (Evaluar)
+- Ctrl + Shift + 2 -> Next (Ir a la siguiente pregunta)
+- Ctrl + Shift + 3 -> Evaluate + Next (Si)
 
 
 ![alt Config Window](images/main.jpg)
