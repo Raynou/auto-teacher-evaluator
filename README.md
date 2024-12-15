@@ -9,7 +9,7 @@ Have any Chromium-based navigator (e.g Chrome, Brave, Edge, etc). Firefox and Sa
 
 ## Usage
 ### Main window
-From this window you select the extension's behaviour of the extension to evaluate teachers. It has three modes:
+From this window you select the extension's behaviour to evaluate teachers. It has three modes:
 
 - Random (Aleatorio)
 - Bad grading (Calificar mal)
